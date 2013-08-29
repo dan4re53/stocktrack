@@ -14,6 +14,7 @@
 ActiveRecord::Schema.define(version: 20130820232541) do
 
   create_table "tickers", force: true do |t|
+    t.string   "symbol"
     t.date     "date"
     t.float    "open"
     t.float    "high"
